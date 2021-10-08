@@ -1,0 +1,72 @@
+.beer-page {
+  min-height: calc(100vh - 56px);
+  background-image: url("../../assets/beer2.jpeg");
+  @extend %backgroundedits;
+  height: inherit;
+  h2 {
+    text-align: center;
+    padding: 15px 0;
+    color: $fontcolor;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 100px;
+  }
+}
+.beer-filter {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.city-name {
+  color: $fontcolor;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.city-image {
+  height: 200px;
+}
+
+.row {
+  margin: 0 auto;
+}
+
+.card {
+  background-color: rgb(193, 129, 11);
+  border-radius: 10px;
+  transition: 0.4s ease-in-out;
+  &:hover {
+    transform: scale(1.05);
+  }
+  h6 {
+    color: $fontcolor;
+    text-align: center;
+    padding-top: 5px;
+  }
+}
+
+.card-link {
+  text-decoration: none;
+}
+
+.filter-type {
+  margin: 13px;
+  padding: 2px 6px 2px 6px;
+  display: inline-block;
+  border-radius: 6px;
+  background-color: rgba(193, 129, 11, 0);
+  border: 1px solid rgba(193, 129, 11);
+  color: $fontcolor;
+}
+::placeholder {
+  color: $fontcolor;
+}
+
+.sort {
+  margin: 13px;
+  padding: 5px 8px 5px 8px;
+  display: inline-block;
+  border-radius: 6px;
+  background-color: rgba(193, 129, 11, 0);
+  border: 1px solid rgba(193, 129, 11);
+  color: $fontcolor;
+}

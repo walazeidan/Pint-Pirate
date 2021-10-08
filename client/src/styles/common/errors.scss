@@ -1,0 +1,25 @@
+.error-heading {
+  padding: 10px 0 30px 0;
+}
+
+.fail-gif {
+  margin: 0 auto;
+  border-radius: 10px;
+  width: 700px;
+}
+
+.error-btn {
+  color: $fontcolor;
+  margin-top: 20px;
+  padding: 5px 8px 5px 8px;
+  display: inline-block;
+  border-radius: 6px;
+  background-color: rgba(193, 129, 11, 0.6);
+  border: 1px solid rgba(193, 129, 11);
+  transition: 0.4s ease-in-out;
+  border-radius: 50px;
+  &:hover {
+    transform: scale(1.05);
+    background-color: rgba(193, 129, 11, 0);
+  }
+}

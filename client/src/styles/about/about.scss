@@ -1,0 +1,73 @@
+.site-wrapper1 {
+  height: calc(100vh - 141px);
+  color: $fontcolor;
+}
+.about-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .about-info {
+    text-align: center;
+    margin-top: 70px;
+  }
+  h1 {
+    font-size: 100px;
+    font-family: "Permanent Marker", cursive;
+  }
+  hr {
+    color: $fontcolor;
+    width: 200px;
+    margin: 10px auto;
+    height: 3px;
+  }
+  p {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .tech {
+    margin: 15px auto;
+    .colored {
+      font-size: 50px;
+      margin: 10px;
+    }
+
+    h3 {
+      color: $fontcolor;
+      font-size: 50px;
+      font-family: "Permanent Marker", cursive;
+    }
+
+    .bullet-list {
+      background-color: rgba(193, 129, 11, 0.5);
+      border-radius: 10px;
+      margin-top: 30px;
+    }
+  }
+
+  .contact-info {
+    color: $fontcolor;
+    margin-top: 25px;
+    h3 {
+      font-weight: bold;
+    }
+
+    i {
+      font-size: 50px;
+      margin: 10px;
+      transition: 0.4s ease-in-out;
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+    .fa-twitter {
+      color: rgb(29, 161, 242);
+    }
+    .fa-github {
+      color: $fontcolor;
+    }
+    .fa-linkedin {
+      color: #0072b1;
+    }
+  }
+}

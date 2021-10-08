@@ -1,0 +1,127 @@
+.site-wrapper {
+  height: calc(100vh - 141px);
+  p {
+    color: $fontcolor;
+  }
+}
+
+.title-screen {
+  margin-top: 25px;
+  h1 {
+    font-size: 150px;
+    margin-bottom: 30px;
+    font-family: "Permanent Marker", cursive;
+    color: $fontcolor;
+  }
+  p,
+  .explore-btn {
+    font-size: 40px;
+    padding: 10px 50px;
+    border-radius: 50px;
+  }
+  p {
+    margin-bottom: 50px;
+  }
+}
+
+.explore-btn {
+  background-color: rgba(193, 129, 11, 0.3);
+  border: 1px solid rgb(193, 129, 11);
+  transition: 0.4s ease-in-out;
+  &:hover {
+    transform: scale(1.1);
+    background-color: rgba(193, 129, 11, 0);
+  }
+  span {
+    color: $fontcolor;
+    margin-right: 10px;
+  }
+}
+
+.home-background {
+  height: calc(100vh - 56px);
+  background-image: url("../../assets/beer2.jpeg");
+  @extend %backgroundedits;
+  height: inherit;
+}
+
+.home-cards {
+  margin-top: 80px;
+  justify-content: center;
+  a {
+    text-decoration: none;
+  }
+}
+
+.untappd-card {
+  background-image: url("../../assets/untapped.png");
+  @extend %backgroundedits;
+  height: 300px;
+  width: 300px;
+  margin: 0 15px;
+  border-radius: 10px;
+  display: flex;
+  // border: 5px solid rgb(193, 129, 11);
+  box-shadow: 0px 2px 12px rgba(0 0 0 / 20%);
+  p {
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 200px;
+    margin: 0 auto;
+  }
+  transition: 0.4s ease-in-out;
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.hawk-card {
+  background-image: url("../../assets/beerhawk.jpeg");
+  @extend %backgroundedits;
+  height: 300px;
+  width: 300px;
+  margin: 0 15px;
+  border-radius: 10px;
+  display: flex;
+  box-shadow: 0px 2px 12px rgba(0 0 0 / 20%);
+  p {
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 200px;
+    margin: 0 auto;
+  }
+  transition: 0.4s ease-in-out;
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.purity-card {
+  background-image: url("../../assets/purity-brewing-company.jpeg");
+  @extend %backgroundedits;
+  height: 300px;
+  width: 300px;
+  margin: 0 15px;
+  border-radius: 10px;
+  display: flex;
+  box-shadow: 0px 2px 12px rgba(0 0 0 / 20%);
+  p {
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 200px;
+    margin: 0 auto;
+  }
+  transition: 0.4s ease-in-out;
+  &:hover {
+    transform: scale(1.05);
+  }
+}
