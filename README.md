@@ -1,4 +1,4 @@
-﻿# Project 3 - Pint-Pirate
+# Pint-Pirate
 
 ## Team Members
 
